@@ -41,23 +41,3 @@ function getLuckyPicks(n){
 console.log(getLuckyPicks(6));
 console.log(getLuckyPicks(3));
 console.log(getLuckyPicks(9));
-/*
-
-function getRandomNumbers(n) {
-    // Initialize an empty array.
-    let arr = [];
-
-    // Until the array length is less than n, repeat the process
-    while(arr.length < n){
-        // Generate a random integer between 1 and 10 using Math.random method.
-        let r = Math.floor(Math.random() * 10) + 1;
-
-        // Check if the generated random number already exists in the array,
-        // If it doesn't exist, add it to the array.
-        if(arr.indexOf(r) === -1) arr.push(r);
-    }
-
-    // Return the array
-    return arr;
-}
-*/
